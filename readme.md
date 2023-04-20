@@ -42,9 +42,9 @@ and this breaks out, cool.
 a little code block is fenced with three backticks
 ```python
 borscht = {'food type': 'soup', 'temperature': 'cold', 'main ingredient': 'beets', 'opinion': 'gross'}
-print(f'the {borscht['food type']} is {borscht['temperature']}
-      and made with {borscht['main ingredient']}, which is {borscht['opinion']})
-    
+print(f"the {borscht['food type']} is {borscht['temperature']} "
+      f"and made with {borscht['main ingredient']}, which is {borscht['opinion']}")
+
 
 ```
 
