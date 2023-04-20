@@ -26,9 +26,9 @@ Please refer to the LICENSE in the repo.
 
 
 
-# Prework readme - For great learning
+# Prework readme 
 
-#### Or "How I learned to stop using Notepad++ and love VS Code"
+## Or "How I learned to stop using Notepad++ and love VS Code"
 
 
 ***
