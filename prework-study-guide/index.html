@@ -17,7 +17,6 @@
     .bg-image {
       background-image: url(assets/palm_bg.jpg);
       background-attachment: fixed;
-      filter: blur(8px);
       height: 100%;
       background-position: center;
       background-repeat: no-repeat;
@@ -26,14 +25,15 @@
     .nice-box {
       position: absolute;
       padding-left: 35px;
+      padding-right: 35px;
       top: 15%;
       left: 15%;
-      color:#813b3b;
-      background-image: url(assets/parchment.png);
-      background-size: cover;
-      background-repeat: no-repeat;
+      color:#f0dda9;
+      background-color: rgba(180, 130, 160, .4);
+      border-radius: 15px;
       width: 80%;
       max-width: 500px;
+      backdrop-filter: blur(10px);
     }
     .corner-image {
       right: 10px;
@@ -41,6 +41,11 @@
       position: fixed;
       width: 10%;
       
+    }
+    strong {
+      font-weight: 600;
+      font-size: 2.5vw;
+      color:#f3b814;
     }
   </style>
   <body>
@@ -52,7 +57,18 @@
         </header>
         <main>
           <section class="card" id="html-section">
-
+            <h2>HTML</h2>
+            <ul>
+              <li>
+                <p><strong>body</strong>
+                the physique of the page</p>
+              </li>
+              <li>
+                <p><strong>head</strong>
+                the brains of the operation</p>
+              
+              </li>
+            </ul>
           </section>
        
           <section class="card" id="css-section">
@@ -60,6 +76,18 @@
           </section>
        
           <section class="card" id="git-section">
+            <h2>Git</h2>
+              <ul>
+                <li>
+                  <p><strong>git-status</strong>
+                  checks what branch we're on</p>
+                </li>
+                <li>
+                  <p><strong>git checkout -b branch-name</strong>
+                  makes a new branch and switches to it</p>
+                
+                </li>
+              </ul>
        
           </section>
        
