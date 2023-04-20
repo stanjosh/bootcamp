@@ -11,9 +11,12 @@
       height: 100%;
       background-color: #D975D7;
       font-family: Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 2vw;
     }
     .bg-image {
       background-image: url(assets/palm_bg.jpg);
+      background-attachment: fixed;
       filter: blur(8px);
       height: 100%;
       background-position: center;
@@ -22,17 +25,22 @@
     }
     .nice-box {
       position: absolute;
-      padding-top: 10px;
-      padding-left: 10px;
+      padding-left: 35px;
       top: 15%;
       left: 15%;
-      border: 2px solid #a975a7;
-      border-radius: 20px;
-      color:#dbc1db;
-      background-color: rgb(255, 255, 255);
-      background-color: rgba(111, 50, 190, 0.4);
+      color:#813b3b;
+      background-image: url(assets/parchment.png);
+      background-size: cover;
+      background-repeat: no-repeat;
       width: 80%;
       max-width: 500px;
+    }
+    .corner-image {
+      right: 10px;
+      top: 10px;
+      position: fixed;
+      width: 10%;
+      height: 10%;
     }
   </style>
   <body>
@@ -49,6 +57,8 @@
         <footer>
           <p>I can code!</p>
         </footer>
+
       </div>
+      <img src="assets/jolly.png" class="corner-image">
   </body>
 </html>
