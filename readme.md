@@ -1,34 +1,16 @@
-# <Your-Project-Title>
+# Prework Study Guide Webpage
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+This Prework Study Guide was created for boot camp students who were going through the Prework. It contains notes on HTML, CSS, Git, and JavaScript.
 
 ## Installation
 
-N/S
+N/A
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
 
 ## Credits
 
@@ -36,29 +18,7 @@ N/A
 
 ## License
 
-N/A
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Please refer to the LICENSE in the repo.
 
   
 
@@ -68,12 +28,12 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 # Prework readme - For great learning
 
-#### Or "How I learned to stop using Notepad++ and instead use VS Code"
+#### Or "How I learned to stop using Notepad++ and love VS Code"
 
 
 ***
 
-The purpose of this readme is to familiarize myself with how the Markdown syntax boogies a little bit
+The purpose of this section is to familiarize myself with how the Markdown syntax boogies a little bit
 
 I can't quite figure out the line breaks but that's no big deal.
 
@@ -87,15 +47,17 @@ Anyway, here's a list of things I'm working on here:
 1. I used a one on this line but since it's the third in an ordered list, it just used that index
    1. but sublists can
    2. be in
-   3. order  
-   oh, I've figured out line breaks now. two trailing spaces on the last line  
+   3. order
+
+   oh, and I've figured out line breaks now. two trailing spaces on the last line  
    this stays within the same paragraph
 
 and this breaks out, cool.  
 
 
-## Next section header! Some links
-# Header lines are additive!
+# Next section header! Some links
+## Header lines work like h tags in html
+### the number of # represent the subheading size
 
 
 [Inline link to google with a title](https://www.google.com "this has a title!")  
@@ -118,8 +80,4 @@ print(f"the {borscht['food type']} is {borscht['temperature']} "
 
 ***
 
-and I'm not gonna mess with tables for now so, let's finalize with a youtube video me doing Texas things  
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=z4xI9JBJicE
-" target="_blank"><img src="http://img.youtube.com/vi/z4xI9JBJicE/0.jpg" 
-alt="shoot de gunne" width="180" height="240" border="10" /></a>
+and I'm not gonna mess with tables for now
